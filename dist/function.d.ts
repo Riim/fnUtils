@@ -1,0 +1,9 @@
+export declare const noop: () => void;
+export declare const identity: <T>(value: T) => T;
+export declare const falsify: () => false;
+export declare const F: () => false;
+export declare const truthify: () => true;
+export declare const T: () => true;
+export declare const nullify: () => null;
+export declare const N: () => null;
+export declare const U: () => undefined;
